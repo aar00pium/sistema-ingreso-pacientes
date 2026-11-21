@@ -25,7 +25,7 @@ y consulta la base llamando a sus procedimientos y funciones.</p>
     <li>Revise que el servicio MySQL80 esté iniciado.</li>
     <li>Revise host, puerto, usuario y contraseña en <code>config.php</code>.</li>
     <li>Revise que exista la base <code><?= e($info['base']) ?></code> (scripts 01 y 02).</li>
-    <li>Si faltan las rutinas o el usuario, ejecute <code>sql/09</code> y <code>sql/08</code>.</li>
+    <li>Si faltan las rutinas o el usuario, ejecute <code>sql/3_funciones_procedimientos_triggers</code> y <code>sql/4_usuario_aplicativo</code>, o todo <code>sql/script_completo_bd.sql</code>.</li>
   </ul>
 <?php endif; ?>
 

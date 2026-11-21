@@ -1,4 +1,4 @@
-"""Genera sql/14_datos_ampliados.sql: cuatro semanas más de operación del Centro
+"""Genera sql/2_datos_prueba/14_datos_ampliados.sql: cuatro semanas más de operación del Centro
 (26/10/2026 al 21/11/2026) sobre los datos de ejemplo del script 02.
 Respeta todas las reglas de la base: formatos, días, bloques, una cita por ingreso,
 sin cruces de sillón entre citas pendientes y horas coherentes."""
@@ -164,5 +164,5 @@ UNION ALL SELECT 'ingreso', COUNT(*) FROM ingreso
 UNION ALL SELECT 'permiso', COUNT(*) FROM permiso
 UNION ALL SELECT 'esterilizacion', COUNT(*) FROM esterilizacion;
 """]
-open(__import__('os').path.join(__import__('os').path.dirname(__file__), '..', 'sql', '14_datos_ampliados.sql'), 'w', encoding='utf-8').write("\n\n".join(sql))
+open(__import__('os').path.join(__import__('os').path.dirname(__file__), '..', 'sql', '2_datos_prueba', '14_datos_ampliados.sql'), 'w', encoding='utf-8').write("\n\n".join(sql))
 print(len(personal), len(pacientes), len(alumnos), len(citas), len(ingresos), len(permisos), len(ester))

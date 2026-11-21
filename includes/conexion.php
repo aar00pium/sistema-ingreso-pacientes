@@ -2,7 +2,7 @@
 /*
  * Conexión a MySQL con PDO y funciones para llamar a las rutinas de la base.
  * El aplicativo no escribe consultas SQL: solo llama a funciones (fn_...)
- * y procedimientos almacenados (sp_...) definidos en sql/09_funciones_procedimientos.sql
+ * y procedimientos almacenados (sp_...) definidos en sql/3_funciones_procedimientos_triggers/
  */
 require_once __DIR__ . '/../config.php';
 

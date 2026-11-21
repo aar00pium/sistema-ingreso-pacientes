@@ -1,0 +1,12 @@
+{
+    "name": "aar00pium/sistema-ingreso-pacientes",
+    "description": "Sistema de Ingreso de Pacientes del Centro Odontológico UCSM. Aplicativo web en PHP sin frameworks, cliente de MySQL 8.0.",
+    "type": "project",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.0",
+        "ext-pdo": "*",
+        "ext-pdo_mysql": "*",
+        "ext-mbstring": "*"
+    }
+}
